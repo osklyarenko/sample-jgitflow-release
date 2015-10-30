@@ -22,4 +22,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>com.atlassian.maven.plugins</groupId>
+          <artifactId>maven-jgitflow-plugin</artifactId>
+          <version>1.0-alpha27</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
 </project>
