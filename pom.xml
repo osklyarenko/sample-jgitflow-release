@@ -3,7 +3,7 @@
 
   <groupId>sample.project</groupId>
   <artifactId>library</artifactId>
-  <version>1.2-SNAPSHOT</version>
+  <version>1.2</version>
   <packaging>jar</packaging>
 
   <name>library</name>
@@ -11,8 +11,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <scm.username></scm.username>
-    <scm.password></scm.password>
+    <scm.username />
+    <scm.password />
   </properties>
 
   <scm>
