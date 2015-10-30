@@ -41,6 +41,16 @@
       </plugins>
     </pluginManagement>
 
+    <plugins>
+      <plugin>
+        <groupId>com.atlassian.maven.plugins</groupId>
+        <artifactId>maven-jgitflow-plugin</artifactId>
+        <configuration>
+          <pushReleases>true</pushReleases>
+        </configuration>
+      </plugin>
+    </plugins>
+
     <extensions>
       <extension>
         <groupId>org.springframework.build</groupId>
