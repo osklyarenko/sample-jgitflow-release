@@ -11,7 +11,15 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <scm.username></scm.username>
+    <scm.password></scm.password>
   </properties>
+
+  <scm>
+    <url>https://github.com/osklyarenko/sample-jgitflow-release</url>
+    <connection>https://github.com/osklyarenko/sample-jgitflow-release.git</connection>
+    <developerConnection>scm:git:https://github.com/osklyarenko/sample-jgitflow-release.git</developerConnection>
+  </scm>
 
   <dependencies>
     <dependency>
@@ -47,6 +55,15 @@
         <artifactId>maven-jgitflow-plugin</artifactId>
         <configuration>
           <pushReleases>true</pushReleases>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-scm-plugin</artifactId>
+        <version>1.9.4</version>
+        <configuration>
+          <username>${scm.username}</username>
+          <password>${scm.password}</password>
         </configuration>
       </plugin>
     </plugins>
