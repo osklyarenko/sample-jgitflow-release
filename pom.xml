@@ -23,12 +23,14 @@
     </dependency>
   </dependencies>
 
+  <!--
   <distributionManagement>
     <repository>
       <id>sample-jgitflow-release-repo</id>
       <url>https://github.com/osklyarenko/sample-jgitflow-release/raw/master/releases</url>
     </repository>
   </distributionManagement>
+  -->
 
   <build>
     <pluginManagement>
